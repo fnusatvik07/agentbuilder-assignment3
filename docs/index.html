@@ -411,14 +411,18 @@
 
   <script>
     const tabs = ["overview","problem","build","architecture","data","grading","submit"];
+    const HEADER_OFFSET = 84; // sticky header height
     function showTab(id){
+      if(!tabs.includes(id)) return;
       tabs.forEach(t=>{
         document.getElementById("p-"+t).classList.toggle("active", t===id);
         document.getElementById("t-"+t).setAttribute("aria-selected", t===id);
       });
-      // keep the tab bar in view when switching from nav links
-      const bar = document.querySelector(".tabbar");
-      if(window.scrollY > bar.offsetTop) bar.scrollIntoView({behavior:"smooth", block:"start"});
+      // always bring the tab section into view so the change is visible
+      // (whether clicked from the header, the hero, or the tab bar itself)
+      const sec = document.querySelector(".tabsec");
+      const y = sec.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET;
+      window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
     }
   </script>
 </body>
