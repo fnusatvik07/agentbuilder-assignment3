@@ -6,3 +6,8 @@ video/capture/
 # os / editor
 .DS_Store
 *.log
+
+# thumbnail render tooling
+thumb/frames/
+thumb/.hyperframes/
+thumb/node_modules/
