@@ -6,8 +6,10 @@
 **Due:** **28 June 2026, EOD (11:59 PM)**
 **Weight:** 100 marks (+ up to 10 bonus)
 
-> **▶ Watch the 60-second brief:** **[play it on the Releases page](https://github.com/fnusatvik07/agentbuilder-assignment3/releases/tag/v1.0)** or [download `LaunchLens-brief.mp4`](./LaunchLens-brief.mp4).
-> (GitHub can't stream a video stored inside a repo, so use the Releases link to watch it in the browser, or download the file.)
+> ### 🌐 Landing page: **https://fnusatvik07.github.io/agentbuilder-assignment3/**
+> The full brief with the embedded video and tabs (Problem · Build · Architecture · Data · Grading · Submit). Start there.
+>
+> **▶ Watch the 60-second brief:** on the [landing page](https://fnusatvik07.github.io/agentbuilder-assignment3/), the [Releases page](https://github.com/fnusatvik07/agentbuilder-assignment3/releases/tag/v1.0), or [download `LaunchLens-brief.mp4`](./LaunchLens-brief.mp4).
 
 ---
 
